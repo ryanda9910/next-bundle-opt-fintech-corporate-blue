@@ -1,0 +1,92 @@
+# 🧩 Node & Package Managers
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+yarn.lock
+package-lock.json
+
+# ⚙️ Build Outputs
+.next/
+.next/cache/
+.next/static/
+.next/trace/
+.next/server/
+dist/
+build/
+out/
+.vercel/
+.vercel_build_output/
+
+# 🧰 IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🪵 Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 💻 OS-specific
+.DS_Store
+Thumbs.db
+
+# 🔐 Environment & Config
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# ⚡ Cache & Temporary
+.cache/
+.eslintcache/
+tsconfig.tsbuildinfo
+vite.config.timestamp-*
+*.tsbuildinfo
+
+# 🖼️ Public Generated Assets
+public/icons/icon-*.png
+public/manifest-*.json
+public/sw.js
+public/service-worker.js
+public/*.webmanifest
+
+# 📦 Archives
+*.zip
+*.tar
+*.tgz
+
+# ☁️ Vercel Deploy Files
+.output/
+.vercel/
+.vercel_build_output/
+now.json
+.now/
+
+# 📘 Tests & Coverage
+coverage/
+*.spec.ts
+*.test.ts
+jest.config.js
+jest-cache/
+jest-stare/
+.vitest/
+
+# 🧾 Misc
+tmp/
+temp/
+*.tmp
+*.bak
+*.local
+*.env.backup
+
+# 🧠 Generated Analytics or Images
+public/analytics/
+public/generated/
+reports/
+screenshots/
