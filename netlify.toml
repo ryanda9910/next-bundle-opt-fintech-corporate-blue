@@ -1,17 +1,17 @@
 [build]
-  command = "pnpm run build"
-  publish = ".next"
+  command  = "pnpm build"
+  publish  = ".next"
   functions = ".netlify/functions-internal"
 
-# ✅ Enable Next.js runtime adapter
 [build.environment]
+  NODE_VERSION = "18"
   NETLIFY_NEXT_PLUGIN_SKIP = "false"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-# ✅ Redirect all routes through Next.js
+# Semua route dilewatkan ke renderer Next.js
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/__render"
+  to   = "/.netlify/functions/__render"
   status = 200
